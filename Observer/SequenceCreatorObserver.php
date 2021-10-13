@@ -49,12 +49,8 @@ class SequenceCreatorObserver implements ObserverInterface
     }
 
     /**
-     * Observer triggered during adding new store
-     *
      * @param EventObserver $observer
-     *
-     * @return $this|void
-     * @throws \Magento\Framework\Exception\AlreadyExistsException
+     * @return $this
      */
     public function execute(EventObserver $observer)
     {

@@ -49,8 +49,6 @@ class SequenceCreator
 
     /**
      * Creates sales sequences.
-     *
-     * @throws \Magento\Framework\Exception\AlreadyExistsException
      */
     public function create()
     {
